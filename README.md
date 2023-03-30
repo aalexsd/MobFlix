@@ -1,16 +1,18 @@
-# alura_challenge
+# Alura Challenge
 
-A new Flutter project.
+A challenge proposed by Alura to develop an app in 4 weeks. 
 
-## Getting Started
+## Description  
 
-This project is a starting point for a Flutter application.
+The app is kind a clone of Netflix and Youtube I guess. I've used a lot of widgets, in this app. 
 
-A few resources to get you started if this is your first Flutter project:
+As you can see, in the Initial Screen, there is a Scaffold, the font family in app bar was changed as the background color.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+In the body the first widget is an Image with a button that redirects to a video on Youtube.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Then a Row with multiple ElevatedButtons that is the categorys.
+
+Then some videos. The logic behind it is a Container with a GestureDetector, when tapped redirects to the video on youtube. And a put an Image.network to show the image in Container. 
+
+The Registration Screen has 3 TextFormField with validator and controller in wich one. And when add an Url image, automatic shows it. 
+ 
